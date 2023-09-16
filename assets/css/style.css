@@ -525,3 +525,17 @@ h2{
 .clients i{
     width: 16px !important;
 }
+.carousel-indicators [data-bs-target]{
+    text-indent: 0;
+    opacity: 1 !important;
+    
+}
+.carousel-indicators i{
+    font-size: 13px;
+}
+
+    
+.carousel-indicators .active i{
+    font-weight: 900 !important;
+    
+}
