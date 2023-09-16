@@ -326,6 +326,20 @@ h2{
     
     margin-bottom: 10px;
 }
+.clients h6{
+    color: #313131;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+}
+.clients p{
+    color: #5b5b5b;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
 .bio-item h6{
     font-size: 14px;
     font-weight: 500 !important;
@@ -522,6 +536,9 @@ h2{
     background: #ff724c;
     transition: .3s ease;
 }
+.clients{
+    text-align: center;
+}
 .clients i{
     width: 16px !important;
 }
@@ -538,4 +555,11 @@ h2{
 .carousel-indicators .active i{
     font-weight: 900 !important;
     
+}
+.quote span{
+    color: #5b5b5b;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-style: italic;
+    margin-bottom: 40px;
 }
