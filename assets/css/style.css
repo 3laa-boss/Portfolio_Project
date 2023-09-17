@@ -228,12 +228,18 @@ h2{
     text-transform: uppercase;
     font-weight: 500;
     font-size: 15px;
-    color: #818181;
-    margin-right: 230px;
+    color: #818181 !important;
+    
     margin-bottom: 15px;
 }
 .title h2{
     color: #3b3b3b;
+}
+.about .title h2,.about .title span.text-uppercase,.contact .title span{
+    color: #FFF !important;
+}
+.title{
+    text-align:start !important;
 }
 .card-title::after{
     content: "";
@@ -571,9 +577,7 @@ h2{
     border-radius: 10px;
     padding: 30px 12px;
 }
-.bio{
-    overflow: hidden;
-}
+
 .portfolio{
     overflow: hidden;
 }
@@ -604,9 +608,39 @@ h2{
     left: 0;
     top: 0;
     background-color: var(--main-color);
-    opacity: 0.25;
+    opacity: 0.85;
 }
 .contact-content {
     position: relative;
     z-index: 1;
+    width: 60%;
+}
+::placeholder{
+    color: #FFF;
+}
+form .row{
+    
+    color: #f3f3f3;
+    padding: 20px;
+
+}
+.map{
+    width: 100%;
+    height: 650px;
+    background-color: teal;
+}
+.info{
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.footer p{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 16px;
+    color: #818181;
+    margin-top: 15px;
 }
